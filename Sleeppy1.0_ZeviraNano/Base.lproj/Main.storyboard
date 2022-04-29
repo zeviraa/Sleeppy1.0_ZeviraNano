@@ -1,24 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bxL-qc-PrF">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Sleeppy1_0_ZeviraNano" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="LUE-KX-00p">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LUE-KX-00p" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6dP-xq-tU1"/>
+                            <constraint firstItem="LUE-KX-00p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CYa-vY-LT0"/>
+                            <constraint firstItem="LUE-KX-00p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OQs-se-kUC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LUE-KX-00p" secondAttribute="bottom" id="rmE-Gu-f5G"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Home" id="wDq-42-2yp"/>
+                    <connections>
+                        <outlet property="homeTable" destination="LUE-KX-00p" id="Rpk-Fk-fKS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1789.8550724637682" y="-110.49107142857143"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="IfS-so-jb5">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="bxL-qc-PrF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OJG-ui-1Yy">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ETC-Lz-Y2s" kind="relationship" relationship="viewControllers" id="nmf-5G-p62"/>
+                        <segue destination="NvL-nL-SnQ" kind="relationship" relationship="viewControllers" id="H9h-9s-nMf"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7fn-lL-FYC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-135" y="70"/>
+        </scene>
+        <!--Schedule-->
+        <scene sceneID="SYo-iQ-eiX">
+            <objects>
+                <viewController id="ke4-3J-8Rc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KxQ-xV-Jcb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is Schedule" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXR-5n-7X3">
+                                <rect key="frame" x="145" y="438" width="125" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oMS-H4-Apx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Schedule" id="CL8-d6-4eu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vyl-Gn-gq1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1790" y="642"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="5ld-TF-6jV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ETC-Lz-Y2s" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" selectedImage="house" id="YYH-Rh-rQC"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3DN-65-aKg">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="QxV-2N-5f4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iG7-TQ-dhC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="866.66666666666674" y="-110.49107142857143"/>
+        </scene>
+        <!--Schedule-->
+        <scene sceneID="6au-Ln-2M1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NvL-nL-SnQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Schedule" image="alarm" catalog="system" id="Xnp-xd-kfn"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1mh-yN-iPl">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ke4-3J-8Rc" kind="relationship" relationship="rootViewController" id="jxs-e1-OMs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J76-F6-Gzh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="866.66666666666674" y="641.51785714285711"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="alarm" catalog="system" width="124" height="128"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

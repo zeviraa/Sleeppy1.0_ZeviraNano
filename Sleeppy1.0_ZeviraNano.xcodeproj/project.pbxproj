@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2910070A281BC9C900A7B972 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29100708281BC9C900A7B972 /* HomeTableViewCell.swift */; };
+		2910070B281BC9C900A7B972 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29100709281BC9C900A7B972 /* HomeTableViewCell.xib */; };
 		29D03F3D281BB98100BC43C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D03F3C281BB98100BC43C4 /* AppDelegate.swift */; };
 		29D03F3F281BB98100BC43C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D03F3E281BB98100BC43C4 /* SceneDelegate.swift */; };
 		29D03F41281BB98100BC43C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D03F40281BB98100BC43C4 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29100708281BC9C900A7B972 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		29100709281BC9C900A7B972 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		29D03F39281BB98100BC43C4 /* Sleeppy1.0_ZeviraNano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sleeppy1.0_ZeviraNano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D03F3C281BB98100BC43C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29D03F3E281BB98100BC43C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				29D03F45281BB98200BC43C4 /* Assets.xcassets */,
 				29D03F47281BB98200BC43C4 /* LaunchScreen.storyboard */,
 				29D03F4A281BB98200BC43C4 /* Info.plist */,
+				29100708281BC9C900A7B972 /* HomeTableViewCell.swift */,
+				29100709281BC9C900A7B972 /* HomeTableViewCell.xib */,
 			);
 			path = Sleeppy1.0_ZeviraNano;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				29D03F49281BB98200BC43C4 /* LaunchScreen.storyboard in Resources */,
 				29D03F46281BB98200BC43C4 /* Assets.xcassets in Resources */,
+				2910070B281BC9C900A7B972 /* HomeTableViewCell.xib in Resources */,
 				29D03F44281BB98100BC43C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				29D03F41281BB98100BC43C4 /* ViewController.swift in Sources */,
 				29D03F3D281BB98100BC43C4 /* AppDelegate.swift in Sources */,
+				2910070A281BC9C900A7B972 /* HomeTableViewCell.swift in Sources */,
 				29D03F3F281BB98100BC43C4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
