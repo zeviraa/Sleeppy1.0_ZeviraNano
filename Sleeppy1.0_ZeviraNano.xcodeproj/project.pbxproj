@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		2910070A281BC9C900A7B972 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29100708281BC9C900A7B972 /* HomeTableViewCell.swift */; };
 		2910070B281BC9C900A7B972 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29100709281BC9C900A7B972 /* HomeTableViewCell.xib */; };
+		296EDB172828C5BC00AD46C6 /* AddScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296EDB162828C5BC00AD46C6 /* AddScheduleViewController.swift */; };
+		296EDB192828CEE400AD46C6 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296EDB182828CEE400AD46C6 /* AddViewController.swift */; };
+		296EDB1B2828F62F00AD46C6 /* UpcomingScheduleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296EDB1A2828F62F00AD46C6 /* UpcomingScheduleCollectionViewCell.swift */; };
 		29D03F3D281BB98100BC43C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D03F3C281BB98100BC43C4 /* AppDelegate.swift */; };
 		29D03F3F281BB98100BC43C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D03F3E281BB98100BC43C4 /* SceneDelegate.swift */; };
 		29D03F41281BB98100BC43C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D03F40281BB98100BC43C4 /* ViewController.swift */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		29100708281BC9C900A7B972 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		29100709281BC9C900A7B972 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		296EDB162828C5BC00AD46C6 /* AddScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScheduleViewController.swift; sourceTree = "<group>"; };
+		296EDB182828CEE400AD46C6 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		296EDB1A2828F62F00AD46C6 /* UpcomingScheduleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingScheduleCollectionViewCell.swift; sourceTree = "<group>"; };
 		29D03F39281BB98100BC43C4 /* Sleeppy1.0_ZeviraNano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sleeppy1.0_ZeviraNano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D03F3C281BB98100BC43C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29D03F3E281BB98100BC43C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +50,7 @@
 		29D03F30281BB98100BC43C4 = {
 			isa = PBXGroup;
 			children = (
+				296EDB1A2828F62F00AD46C6 /* UpcomingScheduleCollectionViewCell.swift */,
 				29D03F3B281BB98100BC43C4 /* Sleeppy1.0_ZeviraNano */,
 				29D03F3A281BB98100BC43C4 /* Products */,
 			);
@@ -60,6 +67,8 @@
 		29D03F3B281BB98100BC43C4 /* Sleeppy1.0_ZeviraNano */ = {
 			isa = PBXGroup;
 			children = (
+				296EDB182828CEE400AD46C6 /* AddViewController.swift */,
+				296EDB162828C5BC00AD46C6 /* AddScheduleViewController.swift */,
 				29D03F3C281BB98100BC43C4 /* AppDelegate.swift */,
 				29D03F3E281BB98100BC43C4 /* SceneDelegate.swift */,
 				29D03F40281BB98100BC43C4 /* ViewController.swift */,
@@ -147,6 +156,9 @@
 			files = (
 				29D03F41281BB98100BC43C4 /* ViewController.swift in Sources */,
 				29D03F3D281BB98100BC43C4 /* AppDelegate.swift in Sources */,
+				296EDB192828CEE400AD46C6 /* AddViewController.swift in Sources */,
+				296EDB172828C5BC00AD46C6 /* AddScheduleViewController.swift in Sources */,
+				296EDB1B2828F62F00AD46C6 /* UpcomingScheduleCollectionViewCell.swift in Sources */,
 				2910070A281BC9C900A7B972 /* HomeTableViewCell.swift in Sources */,
 				29D03F3F281BB98100BC43C4 /* SceneDelegate.swift in Sources */,
 			);

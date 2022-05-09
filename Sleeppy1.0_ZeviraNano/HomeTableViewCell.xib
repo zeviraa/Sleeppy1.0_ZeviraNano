@@ -12,28 +12,22 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="148" id="KGk-i7-Jjw" customClass="HomeTableViewCell" customModule="Sleeppy1_0_ZeviraNano" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="274" height="148"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="274" height="148"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tq-Tc-XK4">
-                        <rect key="frame" x="0.0" y="0.0" width="39" height="46"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Today's Schedule " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tq-Tc-XK4">
+                        <rect key="frame" x="16" y="6" width="201" height="46"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="46" id="SOb-I9-AEa"/>
                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="46" id="bAY-Pc-5F1"/>
                             <constraint firstAttribute="width" constant="39" id="vtr-zv-KDm"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
-                <constraints>
-                    <constraint firstAttribute="trailing" secondItem="7Tq-Tc-XK4" secondAttribute="trailing" id="AQN-CU-3C3"/>
-                    <constraint firstItem="7Tq-Tc-XK4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Ejb-Lu-r2y"/>
-                    <constraint firstItem="7Tq-Tc-XK4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="OY0-d9-ZAE"/>
-                    <constraint firstAttribute="bottom" secondItem="7Tq-Tc-XK4" secondAttribute="bottom" id="t4y-qo-b7m"/>
-                </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
